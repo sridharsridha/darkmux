@@ -7,12 +7,11 @@ Tmux Configuration for Linux and OSX,
 ## Installation
 
 Clone this repro
-
 ```sh
 git clone --depth=1 https://github.com/sridharsridha/darkmux ~/.darkmux
-ln -s ~/.darkmux/tmux.conf ~/.tmux.conf
+cd ~/.darkmux
+./install.sh
 ```
-
 Thats it, start tmux and run `Prefix(C-Space) + I` to install plugins
 
 ## Uninstallation
